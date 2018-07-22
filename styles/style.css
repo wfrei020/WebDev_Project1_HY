@@ -8,8 +8,261 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 
 html , body 
 {
-font-size: 62.5%
+font-size: 62.5%;
+font-family:Raleway sans-serif;
+}
+img
+{
+	height:100%;
+	width:100%;
+}
+ul
+{
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+a
+{
+	font-size: 1.9rem;
+	font-weight: 700;
+	color: #333333;
+}
+p, footer{
+	font-size: 2rem;
+	font-weight: 500;
+	color: #777777;
+
+}
+button
+{
+	font-size: 1.9rem;
+	font-weight:700;
+	color: #333333;
+
+}
+.headerNav
+{
+	width:90%;
 }
 
+.headerNav li
+{
+	float:right;
+	display:inline;
+}
+.headerNav a
+{
+	text-decoration: none;
+	display: block;
+	padding:20px;
+}
+.navBottom a
+{
+	text-decoration: none;
+	display: block;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+h1
+{
+	position: relative;
+	left:50px;
+	top:100px;
+	font-size: 6.8rem;
+	font-weight: 700;
+	color: #333333;
+
+}
+h2
+{
+	
+	font-size:3.8rem;
+	color:#005769;
+	font-weight: 700;
+
+}
+h3
+{
+	font-size: 2.2rem;
+padding:0;
+margin:0;
+	color:#777777;
+}
+.travelNav
+{
+	position:relative;
+	text-decoration: none;
+	width:10%;
+	padding:40px;
+	top:50px;
+
+
+}
+
+footer
+{
+	height:100%;
+	background-color: #F6F8FA;
+}
+/*HEADER STYLES*/
+header {
+	background: url(../assets/image-main.jpeg);
+	height: 87vh;
+	background-size: contain;
+	background-attachment: fixed;
+
+  background-repeat: no-repeat;
+   width: 100%;
+	margin:0;
+	position: relative;
+ 
+}
+.wrapper {
+	width: 75%;
+	max-width: 1280px;
+	/*border: 2px solid tomato;*/
+	margin: 0 auto;
+}
+
+div
+{
+	width:100%;
+}
+.row
+{
+	height:500px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.rowOne .imageLeft
+{
+	float:left;
+	width:33%;
+	height:100%;
+	padding-right:10px	;
+
+}
+.rowOne .imageRight
+{
+	float:right;
+	width:67%;
+	height:100%;
+	padding-left:10px;
+}
+.rowTwo .imageLeft
+{
+	float:left;
+	width:67%;
+	height:100%;
+	padding-right:10px	;
+
+}
+.rowTwo .imageRight
+{
+	float:right;
+	width:33%;
+	height:100%;
+	padding-left:10px;
+}
+.mainContainer
+{
+	padding:60px;
+
+}
+.imageTop
+{
+	height:50%;
+}
+.imageBanner
+{
+	height:50%;
+}
+.rowThree
+{
+	width :100%;
+	float:left;
+}
+
+.rowThree .imageLeft
+{
+	float:left;
+		width:67%;
+	padding-right:10px;
+	height:100%;
+
+}
+.innerLeft
+{
+	float:left;
+	width:50%;
+	height:100%;
+	padding-right:10px;
+}
+.rowThree .imageCenter
+{
+	float:right;
+	width:50%;
+	padding-left:10px;
+	
+	height:100%;
+
+
+}
+.rowThree .imageRight
+{
+	float:right;
+	width:33%;
+	padding-left:10px;
+	height:100%;
+
+	
+}
+
+
+footer .leftBottom
+{
+	float:left;
+	width:67%;
+}
+
+footer .rightBottom
+{
+	float:right;
+	width:33%;
+}
+.leftBottom .footerHeading
+{
+	float:left;
+	width:50%;
+}
+.leftBottom .navBottom
+{
+	float:right;
+	width:50%;
+}
+
+.navBottom .leftNav
+{
+	float:left;
+	width:50%;
+}
+
+.navBottom .rightNav
+{
+	float:right;
+	width:50%;	
+}
+
+
+.imageBanner
+{
+	background-color: #F6F8FA;
+
+}
+.bannerContent
+{
+ 
+}
 
 
