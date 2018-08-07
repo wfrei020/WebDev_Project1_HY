@@ -44,7 +44,7 @@ button
 	border-radius: 5px;
 	width:30%;
 	height:20%;
-
+cursor:pointer;
 }
 
 .headerNav
@@ -329,8 +329,12 @@ position:absolute;
 {
         position:absolute;
     height:100%;
-    background-color:#F6F8FA;
-    opacity: 0.5;
+    background-color:rgba(246,248,250,0.5);
+    //opacity: 0.5;
+    padding-top:30%;
+    padding-left:10%;
+    padding-right:10%;
+    text-align:center;
 display:none
 }
 a:hover .showOnHover 
@@ -338,4 +342,6 @@ a:hover .showOnHover
 
 	display:block;
 }
+
+
 
