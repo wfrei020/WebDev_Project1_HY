@@ -212,6 +212,7 @@ div
 }
 .innerLeft
 {
+    position:relative;
 	float:left;
 	width:50%;
 	height:100%;
@@ -320,12 +321,21 @@ footer .rightBottom
 {
 	    padding-bottom: 35px;
 }
-
+.hoverImage
+{
+position:absolute;
+}
 .showOnHover
 {
-	display:none;
+        position:absolute;
+    height:100%;
+    background-color:#F6F8FA;
+    opacity: 0.5;
+display:none
 }
-.innerLeft img:hover  .showOnHover{
-	display: block;
-	float:left;
+a:hover .showOnHover 
+{
+
+	display:block;
 }
+
