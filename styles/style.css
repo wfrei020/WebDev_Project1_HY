@@ -6,11 +6,15 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 
 
 
-html , body 
+html
 {
 font-size: 62.5%;
 font-family:Raleway sans-serif;
 
+}
+body
+{
+font-size: 1.6rem;
 }
 img
 {
@@ -42,14 +46,13 @@ button
 	color: #333333;
 	background-color: #16D6D1;
 	border-radius: 5px;
-	width:30%;
-	height:20%;
+	height: 40px;
 cursor:pointer;
 }
 
 .headerNav
 {
-margin-right:10%;
+//margin-right:10%;
 }
 .headerNav li
 {
@@ -89,20 +92,21 @@ margin-right:10%;
 }
 h1
 {
-	position: relative;
-	left:50px;
+	position: absolute;
+	//left:50px;
 	top:100px;
 	font-size: 6.8rem;
 	font-weight: 700;
 	color: #333333;
 
 }
-h2 .travelNav
+h2 .travelNav ,  .footerHeading h2
 {
 	
 	font-size:3.8rem;
 	color:#005769;
 	font-weight: 700;
+    margin-top:0;
 
 }
 h3
@@ -137,10 +141,9 @@ header {
  
 }
 .wrapper {
-	width: 75%;
-	max-width: 1280px;
-	/*border: 2px solid tomato;*/
-	margin: 0 auto;
+	//width: 75%;
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 div
@@ -185,7 +188,7 @@ div
 }
 .mainContainer
 {
-	padding:60px;
+	//padding:60px;
 
 }
 .imageTop
@@ -254,6 +257,7 @@ footer .rightBottom
 {
 	float:left;
 	width:50%;
+  
 }
 .leftBottom .navBottom
 {
@@ -343,5 +347,41 @@ a:hover .showOnHover
 	display:block;
 }
 
+//adding submenu
+
+
+        .nav li:hover {
+      background-color: silver;
+    }
+
+    .nav li:hover ul.sub-menu {
+      display:block;
+    }
+    ul.sub-menu {
+      background: rgba(175, 178, 180  ,0.5);
+      color: white;
+      display: none;
+      position: relative;
+      top: 100%;
+      left: 0;
+      right: 0;
+      padding: 0;
+    }
+
+    ul.sub-menu li {
+      float: none; /* Set the sub navs list items back by removing the float */
+    }
+
+
+    .sub-menu a:hover
+    {
+    background: rgb(228, 236, 241);
+    }
+    
+        .nav span {
+      font-size: 14px;
+      color: #16D6D1;
+    }
+    
 
 

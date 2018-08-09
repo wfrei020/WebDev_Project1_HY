@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+    <!-- START OF TEMPLATE -->
+    <!-- HEAD -->
 	<head>
 		<meta charset="UTF-8">
-		<title>Document</title>
+		<title>Walter Freire Project 1</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<script defer src="https://use.fontawesome.com/releases/v5.0.12/js/all.js" integrity="sha384-Voup2lBiiyZYkRto2XWqbzxHXwzcm4A5RfdfG6466bu5LqjwwrjXCMBQBLMWh7qR" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="styles/style.css"/>
 	</head>
+    <!-- END OF HEAD -->
+    <!-- START OF BODY -->
 	<body>
 		<header>
-			
-			<section class="navigation clearfix  ">
-	<h2><a class="travelNav" href="#home">travel</a></h2>
+            <!-- HEADER WRAPPER -->
+			<section class="navigation clearfix wrapper  ">
+                <h2><a class="travelNav" href="#home">travel</a></h2>
+                    <!-- NAVIGATION : do to float:left needed to right list in reverse order than one would read -->
 				<nav>
-					<ul><section class="headerNav ">
+					<ul class="nav clearfix" ><section class="headerNav ">
 						<li class="contactNav">
 							<a href="#contact">Contact</a>
 						</li>
@@ -21,7 +26,13 @@
 							<a href="#blog">Blog</a>
 						</li>
 						<li>
-							<a href="#about">About</a>
+							<a href="#about">About<span>&#x25BC;</span></a>
+                                <!-- ADDING SUB MENU -->
+                            <ul class="sub-menu">
+                                <li><a href="#">One</a></li>
+                                <li><a href="#">Two</a></li>
+                                <li><a href="#">Three</a></li>
+                            </ul>
 						</li>
 						<li>
 							<a href="#home">Home</a>
@@ -29,12 +40,15 @@
 					</ul>
 				</nav>
 			</section>
-			<section class="banner">
+			<section class="banner wrapper">
 				<h1>Travel Outdoor</h1>
 			</section>
+                <!-- END OF HEADER-->
 		</header>
 		<main>
-			<section class="mainContainer">
+            <!-- MAIN WRAPPER -->
+			<section class="mainContainer wrapper">
+                <!-- TOP ROW -->
 				<div class="row rowOne clearfix">
 					<div class="imageLeft">
 						<img src="assets/image-1.jpeg" alt="Road Trip" >
@@ -43,57 +57,63 @@
 						<div class="imageTop"><img src="assets/image-2.jpeg" alt="Lonely boat in ocean" ></div>
 						<div class="imageBanner">
 							<section class="bannerContent">
-							<h3>feature</h3>
-							<h2>Lorem ipsum dolor sit amet, consectetur</h2>
-							<button><strong>read more</strong></button>
-						</section>
+                                <h3>feature</h3>
+                                <h2>Lorem ipsum dolor sit amet, consectetur</h2>
+                                <button><strong>read more</strong></button>
+                            </section>
 						</div>
 					</div>
 				</div>
+                    <!-- END OF TOP ROW , START OF ROW TWO -->
 				<div class="row rowTwo clearfix">
 					<div class="imageLeft">
 						<div class="imageTop"><img src="assets/image-3.jpeg" alt="mountains and relaxation" ></div>
-						<div class="imageBanner">		<section class="bannerContent">
-							<h3>feature</h3>
-							<h2>consectetur adipisicing elit.</h2>
-							<button><strong>read more</strong></button>
-						</section></div>
-						
+						<div class="imageBanner">		
+                            <section class="bannerContent">
+                                <h3>feature</h3>
+                                <h2>consectetur adipisicing elit.</h2>
+                                <button><strong>read more</strong></button>
+                            </section></div>
 					</div>
 					<div class="imageRight">
 						<img src="assets/image-4.jpeg" alt="Artsy rock" >
 					</div>
 				</div>
+                    <!-- LAST ROW -->
 				<div class="row rowThree clearfix">
+                    <!-- GROUPED THE TWO IMAGES TO THE LEFT AND THEN SPLIT THEM UP AGAIN -->
 					<div class="imageLeft clearfix">
-						<a><div class="innerLeft">
-							<img class="hoverImage" src="assets/level-3-image-5.jpeg" alt="Artsy rock" >
-							<div class="showOnHover">
-                                <h3>feature</h3>
-                                <h2>consectetur adipisicing elit.</h2>
-                                <button><strong>read more</strong></button>
+						<a>
+                            <div class="innerLeft">
+                                <img class="hoverImage" src="assets/level-3-image-5.jpeg" alt="Artsy rock" >
+                                <div class="showOnHover">
+                                    <h2>consectetur adipisicing elit.</h2>
+                                    <button><strong>read more</strong></button>
+                                </div>
                             </div>
-						</div></a>
-						<div class="imageCenter">
-							<img src="assets/level-3-image-6.jpeg" alt="Artsy rock" >
-						</div>
+                        </a>
+                        <div class="imageCenter">
+                                <img src="assets/level-3-image-6.jpeg" alt="Artsy rock" >
+                        </div>
 					</div>
-					<div class="imageRight">
-						<img src="assets/level-3-image-7.jpeg" alt="Artsy rock" >
+                        <!-- ONLY IMAGE GROUPED TO THE RIGHT -->
+                    <div class="imageRight">
+                        <img src="assets/level-3-image-7.jpeg" alt="Artsy rock" >
 					</div>
 				</div>
 			</section>
-
+                <!-- END OF MAIN WRAPPER -->
 		</main>
 		<footer>
-			<section class="footerContent clearfix">
+            <!-- FOOTER WRAPPER-->
+			<section class="footerContent clearfix wrapper">
 				<div class="leftBottom">
 					<div class="footerHeading"><h2>Travel</h2></div>
 					<div class="navBottom clearfix">
 						<div class="leftNav">
 							<nav>
-								<ul>
-									<li><a href="#home">Home</a></li>
+								<ul >
+									<li><a href="#home">Home </a></li>
 									<li><a href="#about">About</a></li>
 									<li><a href="#blog">Blog</a></li>
 									<li><a href="#contact">Contact</a></li>
@@ -117,9 +137,11 @@
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 				</div>
 			</section>
-							<div class="copyRight">
-					<p>&copy; 2018 HackerYou</p>
-				</div>
+			<div class="copyRight wrapper">
+				<p>&copy; 2018 HackerYou</p>
+			</div>
+                <!-- END OF FOOTER WRAPPER -->
 		</footer>
 	</body>
 </html>
+<!-- EOF -->
