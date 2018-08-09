@@ -8,13 +8,12 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 
 html
 {
-font-size: 62.5%;
-font-family:Raleway sans-serif;
-
+    font-size: 62.5%;
+    font-family:Raleway sans-serif;
 }
 body
 {
-font-size: 1.6rem;
+    font-size: 1.6rem;
 }
 img
 {
@@ -47,13 +46,10 @@ button
 	background-color: #16D6D1;
 	border-radius: 5px;
 	height: 40px;
-cursor:pointer;
+    cursor:pointer;
 }
 
-.headerNav
-{
-//margin-right:10%;
-}
+
 .headerNav li
 {
 	float:right;
@@ -66,7 +62,7 @@ cursor:pointer;
 	text-decoration: none;
 	display: block;
 	padding:20px;
-	    padding-top: 10px;
+	padding-top: 10px;
     padding-bottom: 10px;
     
 }
@@ -134,14 +130,14 @@ header {
 	background-size: cover;
 	background-attachment: fixed;
 
-  background-repeat: no-repeat;
-   width: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
 	margin:0;
 	position: relative;
  
 }
 .wrapper {
-	//width: 75%;
+
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -208,7 +204,7 @@ div
 .rowThree .imageLeft
 {
 	float:left;
-		width:67%;
+	width:67%;
 	padding-right:10px;
 	height:100%;
 
@@ -286,10 +282,10 @@ footer .rightBottom
 .bannerContent
 {
 	height:100%;
- text-align:center;
- padding:20px;
- padding-left:18%;
- padding-right:18%;
+    text-align:center;
+    padding:20px;
+    padding-left:18%;
+    padding-right:18%;
 }
 .bannerContent p
 {
@@ -299,7 +295,7 @@ footer .rightBottom
 {
 	font-size: 3.9rem;
 	color:#333333;
-	    margin-bottom: 25px;
+	margin-bottom: 25px;
     margin-top: 20px;
 
 }
@@ -334,12 +330,11 @@ position:absolute;
         position:absolute;
     height:100%;
     background-color:rgba(246,248,250,0.5);
-    //opacity: 0.5;
     padding-top:30%;
     padding-left:10%;
     padding-right:10%;
     text-align:center;
-display:none
+    display:none
 }
 a:hover .showOnHover 
 {
@@ -347,7 +342,7 @@ a:hover .showOnHover
 	display:block;
 }
 
-//adding submenu
+/*Adding sub menu*/
 
 
         .nav li:hover {
@@ -365,7 +360,7 @@ a:hover .showOnHover
       top: 100%;
       left: 0;
       right: 0;
-      padding: 0;
+     
     }
 
     ul.sub-menu li {
@@ -375,7 +370,7 @@ a:hover .showOnHover
 
     .sub-menu a:hover
     {
-    background: rgb(228, 236, 241);
+        background: rgb(228, 236, 241);
     }
     
         .nav span {
